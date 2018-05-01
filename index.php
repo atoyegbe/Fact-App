@@ -32,7 +32,7 @@ function getFactAjax() {
 
   xhr.onload = function() {
     if(this.status == 200 && number != '' ) {
-       fact.style.display == 'block';
+       fact.style.display == 'show';
        factText.innerText = this.responseText;
     }
   }
